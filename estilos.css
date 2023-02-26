@@ -403,12 +403,15 @@ header .navbar ul li a:hover {
    html{
     font-size: 50%;
    }
+   .experiencia {
+    padding: 0 5rem;
+}
 }
 
 
 
 
-@media (max-width:400px){
+@media (max-width:250px){
     header{
         width: 100vh;
     }
@@ -418,9 +421,15 @@ header .navbar ul li a:hover {
 
     .educacion .box-container .box{
         width: 100%;
+        
     }
 
     .contact .row form{
         margin: 3rem 0;
     }
+
+    .experiencia {
+        padding: 0 5rem;
+    }
 }
+
